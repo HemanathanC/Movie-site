@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body{color:white;}
+h2{text-align:center;}
+fieldset{background-color:black;width:700px;}
+table{margin-right:auto;margin-left:auto;}
+td{padding:10px 10px;text-align:left;}
+#up{border-style:inset;color:white;background-color:green;padding:8px 8px;border-radius:5px;}
+</style>
+</head>
+<body>
+<fieldset>
+<h1>Movie Upload</h1><br>
+<form action="Upload" method="get">
+<table>
+	<tr><td>Id</td><td>:&nbsp;<input type="number" name="id"></td></tr>
+	<tr><td>Image</td><td>:&nbsp;<input type="file" name="img"></td></tr>
+	<tr><td>Name</td><td>:&nbsp;<input type="text" name="name"></td></tr>
+	<tr><td>Genre</td><td>:&nbsp;<input type="text" name="genre"></td></tr>
+	<tr><td>Quality</td><td>:&nbsp;<input type="text" name="quality"></td></tr>
+	<tr><td>Year</td><td>:&nbsp;<input type="number" name="year"></td></tr>
+	<tr><td>Rating</td><td>:&nbsp;<input type="number" step="any" name="rate"></td></tr>
+	<tr><td>Link</td><td>:&nbsp;<input type="text" name="link"></td></tr>
+	<tr><td>Date</td><td>:&nbsp;<input type="number" name="date"></td></tr>
+</table>
+<br><center><input id='up'type="submit" value="Upload"></center>
+</form></fieldset>
+</body>
+</html>
